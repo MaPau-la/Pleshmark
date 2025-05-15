@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<?php include("conexion.php"); ?>
+
+>>>>>>> 50f5e3bfa00b08e0fb3c25c19adbcf37a664ae9e
 <!DOCTYPE html>
 <html lang="en">
 <head>
