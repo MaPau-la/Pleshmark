@@ -1,0 +1,138 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  
+  th {
+    background-color: #1100ff;
+    color: rgb(255, 255, 255);
+  }
+
+  
+  tr:nth-child(even) {
+    background-color: #9b9b9b;
+
+  }
+  
+  tr:hover {
+    background-color: #758fd9;
+  }
+
+  
+
+/* Estilos para el modal de editar */
+#modal-editar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  #modal-editar .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  #modal-editar .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #modal-editar .close:hover,
+  #modal-editar .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el modal de eliminar */
+  #modal-eliminar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  #modal-eliminar .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  #modal-eliminar .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #modal-eliminar .close:hover,
+  #modal-eliminar .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el modal de agregar */
+  #modal-agregar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  #modal-agregar .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  #modal-agregar .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #modal-agregar .close:hover,
+  #modal-agregar .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
