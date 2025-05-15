@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    /*este es el fondo de la pagina*/
+    background-image: url(../img/fondo2.png);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 80px;
+    transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #e3191900;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000; /*para mover el menu sirve*/
+
+    
+}
+
+.icon_menu{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(108, 0, 0, 0);
+    transform: translate(10px);
+}
+
+.icon_menu img{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.menu_side{
+    width: 90px;
+    height: 100%;
+    background-color: #0a4872;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    z-index: 300;
+    overflow: hidden;
+    overflow: scroll;
+    border-right: 20px solid #0a4872;
+    transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    filter: drop-shadow(1px 1px 20px rgb(255, 255, 255)) ;
+    
+    
+
+}
+/*sirve para ocultar scrool de alguna paginas web o apps*/
+.menu_side::-webkit-scrollbar{
+    display: none;
+}
+
+.menu_side{
+    /*-ms-text-overflow: none; importante ponerlo*/
+    scrollbar-width: none;
+    
+}
+
+.name_page{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    left: 50px;
+    border-radius: 15px;
+    z-index: 10000;
+    
+}
+
+.name_page img{
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    margin-left: -10px;
+    
+}
+
+.options_menu{
+    padding: 20px 30px;
+    position: absolute;
+    top: 120px;
+    
+}
+
+.options_menu a{
+
+    color: #ffffff;
+    cursor: default;
+    display: block;
+    position: relative;
+    transition: color 300ms;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+
+
+.options_menu a:hover{
+    color: white;
+    filter: drop-shadow(1px 1px 20px rgba(255, 255, 255, 0)) ;
+
+}
+
+.options_menu .option:hover{
+    margin-left: 5px;
+}
+
+
+
+
+.options_menu .option{
+    margin: 20px 0px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.options_menu .option img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.options_menu .option h4{
+    font-weight: 300px;
+    cursor: pointer;
+}
+
+
+/*creamos unas clases solo para usar en java*/
+
+.body_move{
+    margin-left: 250px;
+}
+
+.menu_side_move{
+
+    width: 250px;
+}
+
+ .option h4{
+    position: relative;
+    display: flex;
+    left: 15px;
+    width: 100%;
+    margin: 0;
+}
+
+.Pleshmark h4{
+    margin: 20px 5px;
+    padding: 10px 10px;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 100px;
+    font-size: 10px;
+    justify-content: center;
+
+}
+
+select {
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    border: none;
+    background-color: rgb(212, 212, 212);
+    border-radius: 8px;
+    outline: none;
+  }
